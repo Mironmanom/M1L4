@@ -1,0 +1,7 @@
+import random
+
+def emo() :
+    emojis = ('@-@','($^$)','(&-&)')
+    remo = ''
+    remo = random.choice(emojis)
+    return remo
