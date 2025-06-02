@@ -17,6 +17,7 @@ def send_heh(message):
 @bot.message_handler(commands=['Meow'])
 def send_meow(message):
     bot.reply_to(message,'мяу')
+
 @bot.message_handler(commands=['help'])
 def send_help(message):
     bot.reply_to(message,'Список команд:/help - список всех комманд,/heh - пишет he указанное количество раз,/start,/hello - приветствие')
